@@ -1,4 +1,4 @@
-# golang_skeleton
+bl# golang_skeleton
 
 ## 1. Thiết lập môi trường phát triển trên Windows
 
@@ -34,8 +34,38 @@
 - Khởi động lại
 
 #### 1.5 Cài đặt Make
-- Link tải Make: <link href=https://sourceforge.net/projects/mingw/files/Installer/mingw-get-setup.exe/download">https://sourceforge.net/projects/mingw/files/Installer/mingw-get-setup.exe/download</link></br>
+- Link tải Make: <link href="https://sourceforge.net/projects/mingw/files/Installer/mingw-get-setup.exe/download">https://sourceforge.net/projects/mingw/files/Installer/mingw-get-setup.exe/download</link></br>
 
 #### 1.6 Cài đặt TablePlus
 - Link tải TablePlus: <link href="https://tableplus.com/download">https://tableplus.com/download</link></br>
 - Chọn phiên bản HĐH
+
+
+## 2. Bắt đầu cơ bản với cấu trúc thư mục Cobra go
+- Link tài liệu : <link href="https://github.com/spf13/cobra/blob/main/site/content/user_guide.md">https://github.com/spf13/cobra/blob/main/site/content/user_guide.md</link> </br>
+
+- Ứng dụng dựa trên Cobra sẽ tuân theo cơ cấu tổ chức sau: </br>
+  ▾ appName/
+    ▾ cmd/
+        add.go
+        your.go
+        commands.go
+        here.go
+      main.go
+
+#### 2.1 Bắt đầu tạo cấu trúc thư mục và main.go
+
+- Tạo thư mục theo tổ chức sau:
+  ▾ apps/
+    ▾ cmd/
+        server/
+          server.go
+        root.go
+      main.go
+</br>
+- Khai báo package cho toàn bộ file go
+- Mở CMD hoặc Powershell lên: </br>
+  cd tới thư mục dự án đã clone từ github: </br>
+- Đi tới thư mục apps: <code>cd apps</code> </br>
+- Khởi tạo dự án Go (gocms): <code>go mod init gocms</code> có thể thay gocms bằng tên dự án của mình
+
