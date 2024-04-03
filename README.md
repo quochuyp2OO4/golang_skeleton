@@ -12,7 +12,7 @@
 - Khởi động lại
 
 #### 1.2 Cài đặt Golang
-- Link tải golang: <link href="https://go.dev/doc/install">https://go.dev/doc/install</link> </br>
+- Link tải Golang: <link href="https://go.dev/doc/install">https://go.dev/doc/install</link> </br>
 - Nhấn chuột phải vào file cài đặt -> Run as administrator (chạy với quyền quản trị) </br>
 
 #### 1.3 Cài đặt VSCode + Extension
@@ -27,3 +27,12 @@
       <li>Docker</li>
       <li>WSL</li>
     </ul>
+    
+#### 1.4 Cài đặt Docker
+- Link tải Docker: <link href="https://docs.docker.com/desktop/install/windows-install/">https://docs.docker.com/desktop/install/windows-install/</link></br>
+- Chạy quyền quản trị file
+- Khởi động lại
+
+#### 1.5 Cài đặt Make
+- Link tải Make: <link href=https://sourceforge.net/projects/mingw/files/Installer/mingw-get-setup.exe/download">https://sourceforge.net/projects/mingw/files/Installer/mingw-get-setup.exe/download</link></br>
+
