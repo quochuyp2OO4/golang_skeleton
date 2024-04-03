@@ -2,7 +2,7 @@
 
 ## 1. Thiết lập môi trường phát triển trên Windows
 
-| WSL2 | Golang | VSCode + Extension | Docker | Make | Table plus |
+| WSL2 | Golang | VSCode + Extension | Docker | Make | TablePlus |
 | - | - | - | - | - | - |
 
 #### 1.1 Cài đặt WSL2
@@ -16,7 +16,7 @@
 - Nhấn chuột phải vào file cài đặt -> Run as administrator (chạy với quyền quản trị) </br>
 
 #### 1.3 Cài đặt VSCode + Extension
-- Link tải VSCode: <link href=https://code.visualstudio.com/download">https://code.visualstudio.com/download</link></br>
+- Link tải VSCode: <link href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</link></br>
 - Nhấn chuột phải vào file cài đặt -> Run as administrator (chạy với quyền quản trị) </br>
 - Cài đặt Extension: </br>
     <ul>
@@ -36,3 +36,6 @@
 #### 1.5 Cài đặt Make
 - Link tải Make: <link href=https://sourceforge.net/projects/mingw/files/Installer/mingw-get-setup.exe/download">https://sourceforge.net/projects/mingw/files/Installer/mingw-get-setup.exe/download</link></br>
 
+#### 1.6 Cài đặt TablePlus
+- Link tải TablePlus: <link href="https://tableplus.com/download">https://tableplus.com/download</link></br>
+- Chọn phiên bản HĐH
