@@ -62,7 +62,6 @@ bl# golang_skeleton
           server.go
         root.go
       main.go
-</br>
 - Khai báo package cho toàn bộ file go
 - Mở CMD hoặc Powershell lên: </br>
   cd tới thư mục dự án đã clone từ github: </br>
