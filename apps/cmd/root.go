@@ -2,18 +2,19 @@ package cmd
 
 import (
 	"fmt"
-	"gocms/cmd/server"
 	"os"
+
+	"gocms/cmd/server"
 
 	"github.com/spf13/cobra"
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "Gocms",
-	Short: "Gocms fast",
-	Long:  `Root gocms run`,
+	Use:   "gocms",
+	Short: "Gocms short",
+	Long:  `Gocms is fast`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("Root cms")
+		fmt.Println("---> Root cms")
 	},
 }
 

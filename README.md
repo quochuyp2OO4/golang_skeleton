@@ -1,4 +1,4 @@
-bl# golang_skeleton
+# golang_skeleton
 
 ## 1. Thiết lập môi trường phát triển trên Windows
 
@@ -65,6 +65,5 @@ bl# golang_skeleton
 - Khai báo package cho toàn bộ file go
 - Mở CMD hoặc Powershell lên: </br>
   cd tới thư mục dự án đã clone từ github: </br>
-- Đi tới thư mục apps: <code>cd apps</code> </br>
-- Khởi tạo dự án Go (gocms): <code>go mod init gocms</code> có thể thay gocms bằng tên dự án của mình
-
+  - Đi tới thư mục apps: <code>cd apps</code> </br>
+  - Khởi tạo dự án Go (gocms): <code>go mod init gocms</code> có thể thay gocms bằng tên dự án của mình, <code>go mod tidy</code> lệnh tải các package dự án
